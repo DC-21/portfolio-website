@@ -1,11 +1,11 @@
 import MainHeading from "../global/MainHeading";
-import Paragraph from "../global/Paragraph";
 import dice from '../../images/dice.png'
-import port from '../../images/port.png'
+import sacip from '../../images/sacip1.png'
 import cyber from '../../images/cyber.png'
 import Button from "../global/Button";
 import soli from "../../images/soli.png"
 import liv1 from "../../images/liv1.png";
+import port from "../../images/port.png";
 
 const Projects = () => {
   return (
@@ -68,22 +68,22 @@ const Projects = () => {
         <div className="justify-start border-2 border-white px-2 py-2 flex flex-col w-full rounded md:h-[500px] h-auto">
           <img
             className="object-cover rounded-lg h-[400px] w-full"
-            src={soli}
+            src={sacip}
             alt="home"
           />
           <div className="mt-4 text-black flex flex-col">
-            <p className="text-[28px] text-white text-center">Tuition Booking App</p>
+            <p className="text-[28px] text-white text-center">Water & Electricity bills payment App</p>
             <Button content={"Visit"} url="https://solidex-lime.vercel.app" secondary mobileWidthFull />
           </div>
         </div>
         <div className="justify-start border-2 border-white px-2 py-2 flex flex-col w-full rounded md:h-[500px] h-auto">
           <img
             className="object-cover rounded-lg h-[400px] w-full"
-            src={cyber}
+            src={port}
             alt="home"
           />
           <div className="mt-4 text-black flex flex-col">
-            <p className="text-[28px] text-white text-center">Cyber Analysis App</p>
+            <p className="text-[28px] text-white text-center">First Portfolio App</p>
             <Button content={"Visit"} url="https://cyberverse.vercel.app/" secondary mobileWidthFull />
           </div>
         </div>

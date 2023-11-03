@@ -5,24 +5,24 @@ const Footer = () => {
           <div className="m-0 top-0">
             <p className="text-[30px] font-bold">Chola.</p>
             <p className="text-gray-400 max-w-xs">
-              Transact with a firm that cares about security first
+              THire a developer you can trust
             </p>
           </div>
-          <div className="grid md:grid-cols-3 grid-cols-1 md:gap-0 gap-8">
+          <div className="grid md:grid-cols-2 grid-cols-1 md:gap-0 gap-8">
             <div>
-              <p className="text-lg font-semibold">COMPANY</p>
+              <p className="text-lg font-semibold">About Me</p>
               <div className="grid gap-2 mt-2">
                 <a
                   href="#"
                   className="text-[15px] text-gray-400 hover:text-white transition-all w-full md:w-fit"
                 >
-                  What is Trade.
+                  Who is chola.
                 </a>
                 <a
                   href="#"
                   className="text-[15px] text-gray-400 hover:text-white transition-all w-full md:w-fit"
                 >
-                  Download
+                  Websites
                 </a>
                 <a
                   href="#"
@@ -34,7 +34,7 @@ const Footer = () => {
                   href="#"
                   className="text-[15px] text-gray-400 hover:text-white transition-all w-full md:w-fit"
                 >
-                  Promote
+                  Hire
                 </a>
               </div>
             </div>
@@ -67,40 +67,11 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div>
-              <p className="text-lg font-semibold">MOBILE APP</p>
-              <div className="grid gap-2 mt-2">
-                <a
-                  href="#"
-                  className="text-[15px] text-gray-400 hover:text-white transition-all w-full md:w-fit"
-                >
-                  What is Trade.
-                </a>
-                <a
-                  href="#"
-                  className="text-[15px] text-gray-400 hover:text-white transition-all w-full md:w-fit"
-                >
-                  Download
-                </a>
-                <a
-                  href="#"
-                  className="text-[15px] text-gray-400 hover:text-white transition-all w-full md:w-fit"
-                >
-                  Donate
-                </a>
-                <a
-                  href="#"
-                  className="text-[15px] text-gray-400 hover:text-white transition-all w-full md:w-fit"
-                >
-                  Promote
-                </a>
-              </div>
-            </div>
           </div>
         </div>
         <div className="w-full flex h-[1px] bg-gray-700"></div>
         <div className="w-full text-center py-6 items-center justify-center">
-          <p className="text-gray-500">Trade. Copyright © 2023</p>
+          <p className="text-gray-500">Chola Copyright © 2023</p>
         </div>
       </div>
     );

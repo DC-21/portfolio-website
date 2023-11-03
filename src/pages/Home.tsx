@@ -1,3 +1,4 @@
+import Footer from "../components/global/Footer";
 import Hero from "../components/global/Hero";
 import About from "../components/Home/About";
 import Projects from "../components/Home/Projects";
@@ -10,6 +11,7 @@ const Home = () => {
       <About/>
       <Services/>
       <Projects/>
+      <Footer/>
     </>
   );
 };
