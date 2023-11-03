@@ -5,7 +5,7 @@ const Footer = () => {
           <div className="m-0 top-0">
             <p className="text-[30px] font-bold">Chola.</p>
             <p className="text-gray-400 max-w-xs">
-              THire a developer you can trust
+              Hire a developer you can trust
             </p>
           </div>
           <div className="grid md:grid-cols-2 grid-cols-1 md:gap-0 gap-8">

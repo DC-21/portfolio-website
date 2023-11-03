@@ -84,7 +84,7 @@ const Projects = () => {
           />
           <div className="mt-4 text-black flex flex-col">
             <p className="text-[28px] text-white text-center">First Portfolio App</p>
-            <Button content={"Visit"} url="https://cyberverse.vercel.app/" secondary mobileWidthFull />
+            <Button content={"Visit"} url="https://cholaport.netlify.app/" secondary mobileWidthFull />
           </div>
         </div>
       </div>
