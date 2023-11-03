@@ -2,7 +2,9 @@ import MainHeading from "../global/MainHeading";
 import Paragraph from "../global/Paragraph";
 import dice from '../../images/dice.png'
 import port from '../../images/port.png'
+import cyber from '../../images/cyber.png'
 import Button from "../global/Button";
+import soli from "../../images/soli.png"
 
 const Projects = () => {
   return (
@@ -20,9 +22,35 @@ const Projects = () => {
           />
           <div className="mt-4 text-black flex flex-col">
             <p className="text-[28px] text-white text-center">Exchange Rates App</p>
-            <Button content={"Visit"} secondary mobileWidthFull />
+            <div>
+            <Button content={"Visit"} url="https://dice-currency.vercel.app" secondary mobileWidthFull />
+            </div>
           </div>
         </div>
+        <div className="justify-start border-2 border-white px-2 py-2 flex flex-col w-full rounded md:h-[500px] h-auto">
+          <img
+            className="object-cover rounded-lg h-[400px] w-full"
+            src={soli}
+            alt="home"
+          />
+          <div className="mt-4 text-black flex flex-col">
+            <p className="text-[28px] text-white text-center">Tuition Booking App</p>
+            <Button content={"Visit"} url="https://solidex-lime.vercel.app" secondary mobileWidthFull />
+          </div>
+        </div>
+        <div className="justify-start border-2 border-white px-2 py-2 flex flex-col w-full rounded md:h-[500px] h-auto">
+          <img
+            className="object-cover rounded-lg h-[400px] w-full"
+            src={cyber}
+            alt="home"
+          />
+          <div className="mt-4 text-black flex flex-col">
+            <p className="text-[28px] text-white text-center">Cyber Analysis App</p>
+            <Button content={"Visit"} url="https://cyberverse.vercel.app/" secondary mobileWidthFull />
+          </div>
+        </div>
+      </div>
+      <div className="grid w-full md:grid-cols-3 gris-cols-1 py-10 gap-6 justify-center items-center">
         <div className="justify-start border-2 border-white px-2 py-2 flex flex-col w-full rounded md:h-[500px] h-auto">
           <img
             className="object-cover rounded-lg h-[400px] w-full"
@@ -31,18 +59,31 @@ const Projects = () => {
           />
           <div className="mt-4 text-black flex flex-col">
             <p className="text-[28px] text-white text-center">Exchange Rates App</p>
-            <Button content={"Visit"} secondary mobileWidthFull />
+            <div>
+            <Button content={"Visit"} url="https://dice-currency.vercel.app" secondary mobileWidthFull />
+            </div>
           </div>
         </div>
         <div className="justify-start border-2 border-white px-2 py-2 flex flex-col w-full rounded md:h-[500px] h-auto">
           <img
             className="object-cover rounded-lg h-[400px] w-full"
-            src={dice}
+            src={soli}
             alt="home"
           />
           <div className="mt-4 text-black flex flex-col">
-            <p className="text-[28px] text-white text-center">Exchange Rates App</p>
-            <Button content={"Visit"} secondary mobileWidthFull />
+            <p className="text-[28px] text-white text-center">Tuition Booking App</p>
+            <Button content={"Visit"} url="https://solidex-lime.vercel.app" secondary mobileWidthFull />
+          </div>
+        </div>
+        <div className="justify-start border-2 border-white px-2 py-2 flex flex-col w-full rounded md:h-[500px] h-auto">
+          <img
+            className="object-cover rounded-lg h-[400px] w-full"
+            src={cyber}
+            alt="home"
+          />
+          <div className="mt-4 text-black flex flex-col">
+            <p className="text-[28px] text-white text-center">Cyber Analysis App</p>
+            <Button content={"Visit"} url="https://cyberverse.vercel.app/" secondary mobileWidthFull />
           </div>
         </div>
       </div>
