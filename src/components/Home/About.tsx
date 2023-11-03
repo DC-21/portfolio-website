@@ -39,7 +39,7 @@ const About = () => {
                 </a>
                 <p className="text-[20px]">NodeJs</p>
               </div>
-              <div className="flex gap-3 cursor-pointer items-center px-2 py-2  rounded mt-4 hover:bg-slate-900">
+              <div className="md:justify-start justify-center flex gap-3 cursor-pointer items-center px-2 py-2  rounded mt-4 hover:bg-slate-900">
                 <a>
                   <svg
                     viewBox="0 0 24 24"
@@ -53,8 +53,8 @@ const About = () => {
                 <p className="text-[20px]">MongoDB</p>
               </div>
             </div>
-            <div className="grid w-full grid-cols-2">
-              <div className="flex gap-3 cursor-pointer items-center px-2 py-2  rounded mt-4 hover:bg-slate-900">
+            <div className="grid w-full md:grid-cols-2 grid-cols-1">
+              <div className="md:justify-start justify-center flex gap-3 cursor-pointer items-center px-2 py-2  rounded mt-4 hover:bg-slate-900">
                 <a>
                   <svg
                     viewBox="0 0 24 24"
@@ -67,7 +67,7 @@ const About = () => {
                 </a>
                 <p className="text-[20px]">ExpressJs</p>
               </div>
-              <div className="flex gap-3 cursor-pointer items-center px-2 py-2  rounded mt-4 hover:bg-slate-900">
+              <div className="md:justify-start justify-center flex gap-3 cursor-pointer items-center px-2 py-2  rounded mt-4 hover:bg-slate-900">
                 <a>
                   <svg
                     viewBox="0 0 24 24"
@@ -81,8 +81,8 @@ const About = () => {
                 <p className="text-[20px]">React/React-Native</p>
               </div>
             </div>
-            <div className="grid w-full grid-cols-2">
-              <div className="flex gap-3 cursor-pointer items-center px-2 py-2  rounded mt-4 hover:bg-slate-900">
+            <div className="grid w-full md:grid-cols-2 grid-cols-1">
+              <div className="md:justify-start justify-center flex gap-3 cursor-pointer items-center px-2 py-2  rounded mt-4 hover:bg-slate-900">
                 <a>
                   <svg
                     viewBox="0 0 24 24"
@@ -95,7 +95,7 @@ const About = () => {
                 </a>
                 <p className="text-[20px]">DotNet</p>
               </div>
-              <div className="flex gap-3 cursor-pointer items-center px-2 py-2  rounded mt-4 hover:bg-slate-900">
+              <div className="md:justify-start justify-center flex gap-3 cursor-pointer items-center px-2 py-2  rounded mt-4 hover:bg-slate-900">
                 <a>
                   <svg
                     viewBox="0 0 24 24"
