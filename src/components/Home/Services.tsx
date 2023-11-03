@@ -18,12 +18,14 @@ const Services = () => {
             alt="home"
           />
           <div className="mt-4 flex flex-col">
-            <p className="text-[28px]">Web App Development</p>
+            <p className="text-[28px] md:text-start text-center">Web App Development</p>
+            <div className="md:text-start text-center">
             <Paragraph
               content={
                 "I develop different kinds of websites from portfolio, e-commerce to dynamic websites based on customer requirements."
               }
             />
+            </div>
           </div>
         </div>
         <div className="rounded-md w-full overflow-hidden justify-center flex flex-col">
@@ -33,12 +35,14 @@ const Services = () => {
             alt="home"
           />
           <div className="mt-4 flex flex-col">
-            <p className="text-[28px]">Mobile App Development</p>
+            <p className="text-[28px] md:text-start text-center">Mobile App Development</p>
+            <div className="md:text-start text-center">
             <Paragraph
               content={
                 "I develop different kinds of mobile applications to run on different operating systems according to customer needs and requirements"
               }
             />
+            </div>
           </div>
         </div>
       </div>
