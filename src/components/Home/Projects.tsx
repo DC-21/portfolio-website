@@ -5,6 +5,7 @@ import port from '../../images/port.png'
 import cyber from '../../images/cyber.png'
 import Button from "../global/Button";
 import soli from "../../images/soli.png"
+import liv1 from "../../images/liv1.png";
 
 const Projects = () => {
   return (
@@ -54,11 +55,11 @@ const Projects = () => {
         <div className="justify-start border-2 border-white px-2 py-2 flex flex-col w-full rounded md:h-[500px] h-auto">
           <img
             className="object-cover rounded-lg h-[400px] w-full"
-            src={dice}
+            src={liv1}
             alt="home"
           />
           <div className="mt-4 text-black flex flex-col">
-            <p className="text-[28px] text-white text-center">Exchange Rates App</p>
+            <p className="text-[28px] text-white text-center">Point of Sale Software</p>
             <div>
             <Button content={"Visit"} url="https://dice-currency.vercel.app" secondary mobileWidthFull />
             </div>
