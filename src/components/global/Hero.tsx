@@ -4,7 +4,7 @@ import Paragraph from "./Paragraph";
 
 const Hero = () => {
   return (
-    <div className="flex px-4 md:px-8 py-24 lg:px-12 w-full min-h-screen justify-center flex-col items-center place-content-center">
+    <div className="flex px-4 md:px-8 md:py-24 p-6 lg:px-12 w-full min-h-screen justify-center flex-col items-center place-content-center">
       {/* Heading */}
       <div className="max-w-sm md:max-w-sm lg:max-w-xl text-center w-full">
         <MainHeading content={"Hire a developer you can trust."} />

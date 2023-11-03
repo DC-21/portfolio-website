@@ -4,26 +4,28 @@ import me from "../../images/me.png";
 
 const About = () => {
   return (
-    <div className="flex px-4 md:px-8 py-24 lg:px-12 w-full min-h-screen justify-center flex-col items-center place-content-center">
+    <div className="flex px-4 md:px-8 md:py-24 py-6 lg:px-12 w-full min-h-screen justify-center flex-col items-center place-content-center">
       {/* Heading */}
       <div className="max-w-sm md:max-w-sm lg:max-w-xl text-center w-full">
         <MainHeading content={"About Me."} />
       </div>
-      <div className="grid w-full md:grid-cols-2 gris-cols-1 py-10 gap-6 justify-center items-center">
+      <div className="grid w-full md:grid-cols-2 gris-cols-1 md:py-10 py-2 gap-6 justify-center items-center">
         <div className="justify-start flex flex-col">
-          <div className="flex items-baseline gap-4">
+          <div className="flex items-baseline gap-4 md:justify-start justify-center">
             <p className="text-[20px]">I'm</p>
-            <p className="text-[33px] font-bold">Chola Kuboko,</p>
+            <p className="md:text-[33px] text-lg font-bold">Chola Kuboko,</p>
           </div>
+          <div className="md:text-start text-center">
           <Paragraph
             content={
-              "I am a Senior Web/Mobile developer experienced in React JavaScript,TypeScript, Tailwind CSS, and HTML. A Passionate developer who creates captivating web experiences. Let's innovate together!"
+              "A Senior Web/Mobile developer experienced in React JavaScript,TypeScript, Tailwind CSS, and HTML. A Passionate developer who creates captivating web experiences. Let's innovate together!"
             }
           />
-          <div className="justify-start flex flex-col mt-4">
-            <p className="text-[28px]">Tech Stack</p>
-            <div className="grid w-full grid-cols-2">
-              <div className="flex gap-3 cursor-pointer items-center px-2 py-2  rounded mt-4 hover:bg-slate-900">
+          </div>
+          <div className="md:justify-start justify-center flex flex-col mt-4">
+            <p className="text-[28px] md:text-start text-center">Tech Stack</p>
+            <div className="grid w-full md:grid-cols-2 grid-cols-1">
+              <div className="md:justify-start justify-center flex gap-3 cursor-pointer items-center px-2 py-2  rounded mt-4 hover:bg-slate-900">
                 <a>
                   <svg
                     viewBox="0 0 512 512"
