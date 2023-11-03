@@ -16,11 +16,11 @@ const About = () => {
             <p className="md:text-[33px] text-lg font-bold">Chola Kuboko,</p>
           </div>
           <div className="md:text-start text-center">
-          <Paragraph
-            content={
-              "A Senior Web/Mobile developer experienced in React JavaScript,TypeScript, Tailwind CSS, and HTML. A Passionate developer who creates captivating web experiences. Let's innovate together!"
-            }
-          />
+            <Paragraph
+              content={
+                "A Senior Web/Mobile developer experienced in React JavaScript,TypeScript, Tailwind CSS, and HTML. A Passionate developer who creates captivating web experiences. Let's innovate together!"
+              }
+            />
           </div>
           <div className="md:justify-start justify-center flex flex-col mt-4">
             <p className="text-[28px] md:text-start text-center">Tech Stack</p>
